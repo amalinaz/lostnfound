@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; ">
-    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3rem ">
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem ">
         @foreach ($items as $item)
         <div class="col-md-4" style=" width: 250px; margin-bottom: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color:  #eee7d3; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);">
             @if($item->image)
